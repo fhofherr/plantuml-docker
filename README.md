@@ -6,4 +6,10 @@
 
 Copyright © 2019 Ferdinand Hofherr.
 
-Distributed under the MIT License.
+The contents of this repository are distributed under the MIT License.
+[Plantuml](https://plantuml.com) itself is distributed under the
+[GPL](https://www.gnu.org/licenses/gpl-3.0.html) license.
+
+Execute `docker run --rm fhofherr/plantuml -license` to read the
+Plantuml license.
+
