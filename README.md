@@ -2,6 +2,17 @@
 
 [Plantuml](https://plantuml.com) in a Docker container.
 
+## Usage
+
+To build an image stored in `image.puml` execute
+
+```sh
+cat image.puml | docker run --rm -i fhofherr/plantuml -p -tpng > out.png
+```
+
+See the Plantuml [documentation](http://plantuml.com/command-line) for
+more information.
+
 ## License
 
 Copyright © 2019 Ferdinand Hofherr.
